@@ -1,0 +1,26 @@
+{
+  "name": "comebuyws",
+  "version": "1.0.0",
+  "description": "Websocket for ComeBuy Website",
+  "main": "WSServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon WSServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvdthien310/ComeBuyWS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pvdthien310/ComeBuyWS/issues"
+  },
+  "homepage": "https://github.com/pvdthien310/ComeBuyWS#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1"
+  }
+}
