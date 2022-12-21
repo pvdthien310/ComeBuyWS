@@ -1,7 +1,7 @@
 const app = require("./index");
 const { Server } = require("socket.io");
 require("dotenv").config();
-const port = 8080 || 8081;
+const port = process.env.PORT || 8081;
 
 const httpServer = app.listen(port, () => {
   console.log(`App running on port ${port}...`);
